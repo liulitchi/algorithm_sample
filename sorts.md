@@ -1,6 +1,6 @@
-### Insertion sort
+### 插入排序（Insertion sort）
 
-- C language code
+- C 语言代码
 
 ```c
 #include <stdio.h>
@@ -22,7 +22,7 @@ int main(void) {
 void insertion_sort(int arr[], int len) {
 	for (int i = 1; i < len; i++) {
 		int key = arr[i];
-		while ((i >= 1) && (arr[i - 1] > key)) {
+		while ((i - 1 >= 0) && (arr[i - 1] > key)) {
 			arr[i] = arr[i - 1];
 			i--;
 		}
