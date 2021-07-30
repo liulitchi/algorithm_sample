@@ -11,6 +11,7 @@ int main(void) {
 	int list1[] = {243, 205, 165, 849, 907, 128, 78};
 	int arr_len = sizeof(list1) / sizeof(list1[0]);
 	insertion_sort(list1, arr_len);
+	
 	printf("result = {");
 	for (int i = 0; i < arr_len; i++)
 		printf("%d, ", list1[i]);
